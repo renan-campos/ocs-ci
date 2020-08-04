@@ -65,6 +65,7 @@ class PlatformNodesFactory:
             "baremetal": BaremetalNodes,
             "azure": AZURENodes,
             "gcp": NodesBase,
+            "openstack": NodesBase,
         }
 
     def get_nodes_platform(self):
